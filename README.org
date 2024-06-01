@@ -1,0 +1,6 @@
+This is a simple Common Lisp xclip front-end that assumes you're using
+SBCL on a Unix/Linux system.  trivial-clipboard is already good enough
+for most purposes, but I found a need for this level of granular
+control in some projects, hence the very trivial library.
+
+I also like having a setf-able function as the clipboard interface.
